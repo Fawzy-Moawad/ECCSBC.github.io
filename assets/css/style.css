@@ -727,6 +727,148 @@ section {
   margin-bottom: 0;
 }
 
+/* useful Links Section
+--------------------------------*/
+#usefulLinks {
+  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+
+#usefulLinks::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.92);
+  z-index: 9;
+}
+
+#usefulLinks .container {
+  position: relative;
+  z-index: 10;
+}
+
+#usefulLinks .usefulLinks-col {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+#usefulLinks .usefulLinks-col .img {
+  position: relative;
+  
+}
+
+#usefulLinks .usefulLinks-col .img img {
+  border-radius: 4px 4px 4px 4px;
+  height: 200px;
+  width: 100%;
+}
+
+#usefulLinks .usefulLinks-col .box {
+  height: 275px;
+  width: 100%;
+}
+
+#usefulLinks .usefulLinks-col h2 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#usefulLinks .usefulLinks-col h2 a {
+  color: #CE1127;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+#usefulLinks .usefulLinks-col p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+/* useful Links Section
+--------------------------------*/
+#consular {
+  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+
+#consular::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.92);
+  z-index: 9;
+}
+
+#consular .container {
+  position: relative;
+  z-index: 10;
+}
+
+#consular .consular-col {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+#consular .consular-col .img {
+  position: relative;
+  
+}
+
+#consular .consular-col .img img {
+  border-radius: 4px 4px 4px 4px;
+  height: 200px;
+  width: 100%;
+}
+
+#consular .consular-col .box {
+  height: 275px;
+  width: 100%;
+}
+
+#consular .consular-col h2 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#consular .consular-col h2 a {
+  color: #CE1127;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+#consular .consular-col p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
 /* Clubs Section
 --------------------------------*/
 #clubs {
